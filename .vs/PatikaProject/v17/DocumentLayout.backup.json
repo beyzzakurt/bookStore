@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\middlewares\\customexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\middlewares\\customexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\bookoperations\\updatebook\\updatebookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\bookoperations\\updatebook\\updatebookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CustomExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
+              "RelativeToolTip": "PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:13:12.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UpdateBookCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs",
               "RelativeDocumentMoniker": "PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs",
@@ -34,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "PatikaProject\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Controllers\\BookController.cs",
               "RelativeToolTip": "PatikaProject\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwHEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwG0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T17:35:28.282Z",
               "EditorCaption": ""
