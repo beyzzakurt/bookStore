@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\middlewares\\customexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\middlewares\\customexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\dboperations\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\dboperations\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C13C83EB-3D0F-46AF-A4C3-42646B9639F7}|WebApi.UnitTest\\WebApi.UnitTest.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\webapi.unittest\\application\\bookoperations\\commands\\createcommand\\createbookcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13C83EB-3D0F-46AF-A4C3-42646B9639F7}|WebApi.UnitTest\\WebApi.UnitTest.csproj|solutionrelative:webapi.unittest\\application\\bookoperations\\commands\\createcommand\\createbookcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\bookoperations\\updatebook\\updatebookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\bookoperations\\updatebook\\updatebookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\application\\authoroperations\\commands\\createauthor\\createauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\application\\authoroperations\\commands\\createauthor\\createauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|c:\\users\\beyzz\\source\\repos\\patikaproject\\patikaproject\\dboperations\\ibookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7894BEC4-82D1-4010-84C4-134159F223E4}|PatikaProject\\PatikaProject.csproj|solutionrelative:patikaproject\\dboperations\\ibookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
-              "RelativeToolTip": "PatikaProject\\Middlewares\\CustomExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CreateBookCommandTest.cs",
+              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\WebApi.UnitTest\\Application\\BookOperations\\Commands\\CreateCommand\\CreateBookCommandTest.cs",
+              "RelativeDocumentMoniker": "WebApi.UnitTest\\Application\\BookOperations\\Commands\\CreateCommand\\CreateBookCommandTest.cs",
+              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\WebApi.UnitTest\\Application\\BookOperations\\Commands\\CreateCommand\\CreateBookCommandTest.cs",
+              "RelativeToolTip": "WebApi.UnitTest\\Application\\BookOperations\\Commands\\CreateCommand\\CreateBookCommandTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T20:13:12.037Z",
+              "WhenOpened": "2025-02-27T16:33:54.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\DbOperations\\IBookDbContext.cs",
+              "RelativeDocumentMoniker": "PatikaProject\\DbOperations\\IBookDbContext.cs",
+              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\DbOperations\\IBookDbContext.cs",
+              "RelativeToolTip": "PatikaProject\\DbOperations\\IBookDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:28:08.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\DbOperations\\BookDbContext.cs",
+              "RelativeDocumentMoniker": "PatikaProject\\DbOperations\\BookDbContext.cs",
+              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\DbOperations\\BookDbContext.cs",
+              "RelativeToolTip": "PatikaProject\\DbOperations\\BookDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:28:04.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateBookCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs",
-              "RelativeDocumentMoniker": "PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs",
-              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs",
-              "RelativeToolTip": "PatikaProject\\BookOperations\\UpdateBook\\UpdateBookCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "CreateAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Application\\AuthorOperations\\Commands\\CreateAuthor\\CreateAuthor.cs",
+              "RelativeDocumentMoniker": "PatikaProject\\Application\\AuthorOperations\\Commands\\CreateAuthor\\CreateAuthor.cs",
+              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Application\\AuthorOperations\\Commands\\CreateAuthor\\CreateAuthor.cs",
+              "RelativeToolTip": "PatikaProject\\Application\\AuthorOperations\\Commands\\CreateAuthor\\CreateAuthor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA6wB4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:24:48.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "PatikaProject\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\beyzz\\source\\repos\\PatikaProject\\PatikaProject\\Controllers\\BookController.cs",
-              "RelativeToolTip": "PatikaProject\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAwG0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:35:28.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:27:36.557Z"
             }
           ]
         }

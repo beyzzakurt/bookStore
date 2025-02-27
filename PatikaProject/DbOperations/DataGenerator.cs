@@ -13,34 +13,77 @@ namespace PatikaProject.DbOperations
                 {
                     return;
                 }
-                context.Books.AddRange(
-                new Book
+
+                context.Genres.AddRange(
+                new Genre
                 {
-                    
+                    Name = "Personal Growth"
+                },
+
+                new Genre
+                {
+                    Name = "Science Fiction"
+                },
+
+                new Genre
+                {
+                    Name = "Romance"
+                }
+                 );
+
+
+                context.Authors.AddRange(
+                    new Author
+                    {
+                        Name = "Beyza",
+                        Surname = "Kurt",
+                        BirthDate = new DateTime(2001, 01, 30)
+                    },
+                    new Author
+                    {
+                        Name = "Engin",
+                        Surname = "Demiroğ",
+                        BirthDate = new DateTime(1985, 02, 24)
+                    });
+
+               context.SaveChanges(); // ID'leri oluşması için önce yazarlar kaydedilir 
+
+               var beyza = context.Authors.SingleOrDefault(x => x.Name == "Beyza" && x.Surname == "Kurt");
+               var engin = context.Authors.SingleOrDefault(x => x.Name == "Engin" && x.Surname == "Demiroğ");
+
+               
+               context.Books.AddRange(
+               new Book
+                {
+
                     Title = "Lean Startup",
                     GenreId = 1, // Personal Growth
+                    AuthorId = beyza.Id,
                     PageCount = 200,
                     PublishDate = new DateTime(2001, 06, 04)
                 },
 
-                new Book
+               new Book
                 {
-                    
+
                     Title = "Herland",
                     GenreId = 2, // Science Fiction
                     PageCount = 350,
+                    AuthorId= engin.Id,
                     PublishDate = new DateTime(2010, 05, 23)
                 },
 
-                new Book
+               new Book
                 {
-                    
+
                     Title = "Dune",
                     GenreId = 2, // Science Fiction
                     PageCount = 350,
+                    AuthorId = engin.Id,
                     PublishDate = new DateTime(2020, 02, 25)
                 });
-               context.SaveChanges();
+
+                context.SaveChanges();
             }
         }
     }

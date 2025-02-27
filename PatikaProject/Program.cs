@@ -1,11 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using PatikaProject.DbOperations;
+using PatikaProject.Middlewares;
+using PatikaProject.Services;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<BookDbContext>(options => options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
+builder.Services.AddScoped<IBookDbContext>(provider => provider.GetService<BookDbContext>());
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+builder.Services.AddSingleton<ILoggerService, ConsoleLogger>();
 
 using (var scope = builder.Services.BuildServiceProvider().CreateScope())
 {
@@ -34,6 +39,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCustomException();
 
 app.MapControllers();
 

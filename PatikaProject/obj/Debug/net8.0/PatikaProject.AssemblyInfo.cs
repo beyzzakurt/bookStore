@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatikaProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52145278c480f416faff77cbc4521158cc71af6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d51ca0795ae120a916a4943c309abd272279609")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatikaProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatikaProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,11 +2,11 @@ using AutoMapper;
 using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using PatikaProject.BookOperations.CreateBook;
-using PatikaProject.BookOperations.DeleteBook;
-using PatikaProject.BookOperations.GetBookById;
-using PatikaProject.BookOperations.GetBooks;
-using PatikaProject.BookOperations.UpdateBook;
+using PatikaProject.Application.BookOperations.Commands.CreateBook;
+using PatikaProject.Application.BookOperations.Commands.DeleteBook;
+using PatikaProject.Application.BookOperations.Commands.UpdateBook;
+using PatikaProject.Application.BookOperations.Queries.GetBookById;
+using PatikaProject.Application.BookOperations.Queries.GetBooks;
 using PatikaProject.DbOperations;
 using PatikaProject.Entity;
 
@@ -19,9 +19,9 @@ namespace PatikaProject.Controllers
     {
         private readonly IMapper _mapper;
 
-        private readonly BookDbContext _context;
+        private readonly IBookDbContext _context;
 
-        public BookController(BookDbContext context, IMapper mapper)
+        public BookController(IBookDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -42,19 +42,14 @@ namespace PatikaProject.Controllers
         {
             GetByIdViewModel result;
             GetBookByIdQuery query = new GetBookByIdQuery(_context, _mapper);
-            try
-            {
-                query.BookId = id;
+           
+            query.BookId = id;
 
-                GetByIdQueryValidator validator = new GetByIdQueryValidator();
-                validator.ValidateAndThrow(query);
+            GetByIdQueryValidator validator = new GetByIdQueryValidator();
+            validator.ValidateAndThrow(query);
 
-                result = query.Handle();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            result = query.Handle();
+            
             return Ok(result);
         }
 
@@ -72,19 +67,12 @@ namespace PatikaProject.Controllers
         public IActionResult AddBook([FromBody] CreateBookModel newBook)
         {
             CreateBookCommand bookCommand = new CreateBookCommand(_context, _mapper);
-            try
-            {
-                bookCommand.Model = newBook;
+            bookCommand.Model = newBook;
 
-                CreateBookCommandValidator validator = new CreateBookCommandValidator();
-                validator.ValidateAndThrow(bookCommand);
-                bookCommand.Handle();   
-
-            }
-            catch (Exception ex) 
-            { 
-                return BadRequest(ex.Message);
-            }
+            CreateBookCommandValidator validator = new CreateBookCommandValidator();
+            validator.ValidateAndThrow(bookCommand);
+            
+            bookCommand.Handle();   
             return Ok();
         }
 
@@ -92,22 +80,16 @@ namespace PatikaProject.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateBook(int id, [FromBody] UpdateBookModel updatedBook)
         {
-            try
-            {
-                UpdateBookCommand updateCommand = new UpdateBookCommand(_context);
-                updateCommand.BookId = id;
-                updateCommand.Model = updatedBook;
-
-                UpdateBookCommandValidator validator = new UpdateBookCommandValidator();
-                validator.ValidateAndThrow(updateCommand);
-
-                updateCommand.Handle();
-            }
-            catch (Exception ex) 
-            {
-                return BadRequest(ex.Message);
-            }
            
+            UpdateBookCommand updateCommand = new UpdateBookCommand(_context);
+            updateCommand.BookId = id;
+            updateCommand.Model = updatedBook;
+
+            UpdateBookCommandValidator validator = new UpdateBookCommandValidator();
+            validator.ValidateAndThrow(updateCommand);
+
+            updateCommand.Handle();
+                      
             return Ok();
 
         }
@@ -116,20 +98,14 @@ namespace PatikaProject.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteBook(int id)
         {
-            try
-            {
-                DeleteBookCommand deleteCommand = new DeleteBookCommand(_context);
-                deleteCommand.BookId = id;
+            
+            DeleteBookCommand deleteCommand = new DeleteBookCommand(_context);
+            deleteCommand.BookId = id;
 
-                DeleteBookCommandValidator validator = new DeleteBookCommandValidator();
-                validator.ValidateAndThrow(deleteCommand);
+            DeleteBookCommandValidator validator = new DeleteBookCommandValidator();
+            validator.ValidateAndThrow(deleteCommand);
 
-                deleteCommand.Handle();
-            }
-            catch (Exception ex) 
-            {
-                return BadRequest(ex.Message);
-            }
+            deleteCommand.Handle();
             
             return Ok();
          }
