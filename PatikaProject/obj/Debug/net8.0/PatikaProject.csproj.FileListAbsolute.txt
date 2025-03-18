@@ -46,3 +46,11 @@ C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\obj\Debug\net8.0\PatikaP
 C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\obj\Debug\net8.0\PatikaProject.genruntimeconfig.cache
 C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\obj\Debug\net8.0\ref\PatikaProject.dll
 C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\beyzz\source\repos\PatikaProject\PatikaProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

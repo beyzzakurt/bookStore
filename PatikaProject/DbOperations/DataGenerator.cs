@@ -48,9 +48,6 @@ namespace PatikaProject.DbOperations
 
                context.SaveChanges(); // ID'leri oluşması için önce yazarlar kaydedilir 
 
-               var beyza = context.Authors.SingleOrDefault(x => x.Name == "Beyza" && x.Surname == "Kurt");
-               var engin = context.Authors.SingleOrDefault(x => x.Name == "Engin" && x.Surname == "Demiroğ");
-
                
                context.Books.AddRange(
                new Book
@@ -58,7 +55,7 @@ namespace PatikaProject.DbOperations
 
                     Title = "Lean Startup",
                     GenreId = 1, // Personal Growth
-                    AuthorId = beyza.Id,
+                    AuthorId = 1,
                     PageCount = 200,
                     PublishDate = new DateTime(2001, 06, 04)
                 },
@@ -69,7 +66,7 @@ namespace PatikaProject.DbOperations
                     Title = "Herland",
                     GenreId = 2, // Science Fiction
                     PageCount = 350,
-                    AuthorId= engin.Id,
+                    AuthorId= 2,
                     PublishDate = new DateTime(2010, 05, 23)
                 },
 
@@ -77,9 +74,9 @@ namespace PatikaProject.DbOperations
                 {
 
                     Title = "Dune",
-                    GenreId = 2, // Science Fiction
+                    GenreId = 3, // Romance
                     PageCount = 350,
-                    AuthorId = engin.Id,
+                    AuthorId = 2,
                     PublishDate = new DateTime(2020, 02, 25)
                 });
 

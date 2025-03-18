@@ -19,7 +19,7 @@ namespace PatikaProject.Application.BookOperations.Queries.GetBookById
 
         public GetByIdViewModel Handle()
         {
-            var book = _dbContext.Books.Include(x => x.Genre).Where(book => book.Id == BookId).SingleOrDefault();
+            var book = _dbContext.Books.Include(x => x.Genre).Include(x => x.Author).SingleOrDefault(book => book.Id == BookId);
 
             if (book is null)
                 throw new InvalidOperationException("Kitap bulunamadı!");
@@ -37,7 +37,7 @@ namespace PatikaProject.Application.BookOperations.Queries.GetBookById
         public string Genre { get; set; }
         public string Author { get; set; }
         public int PageCount { get; set; }
-        public string PublishDate { get; set; }
+        public DateTime PublishDate { get; set; }
 
     }
 }

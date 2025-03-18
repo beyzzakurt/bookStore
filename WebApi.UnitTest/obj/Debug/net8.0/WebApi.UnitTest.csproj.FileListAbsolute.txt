@@ -127,3 +127,11 @@ C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\obj\Debug\net8.0\refin
 C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\obj\Debug\net8.0\WebApi.UnitTest.pdb
 C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\obj\Debug\net8.0\WebApi.UnitTest.genruntimeconfig.cache
 C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\obj\Debug\net8.0\ref\WebApi.UnitTest.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\beyzz\source\repos\PatikaProject\WebApi.UnitTest\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
