@@ -1,6 +1,6 @@
 using AutoMapper;
 using FluentValidation;
-using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PatikaProject.Application.BookOperations.Commands.CreateBook;
 using PatikaProject.Application.BookOperations.Commands.DeleteBook;
@@ -12,7 +12,7 @@ using PatikaProject.Entity;
 
 namespace PatikaProject.Controllers
 {
-
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class BookController : ControllerBase
